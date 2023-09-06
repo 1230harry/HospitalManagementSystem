@@ -1,0 +1,33 @@
+{% extends 'userAuth/baseUserDash.html' %}
+{% load static %}
+{% block title %}Edit Profile{% endblock title %}
+
+
+{% block userDashContent %}
+
+
+<h4 style="text-align: center;">Edit Profile</h4>
+
+<form style="background-color: #edf2f7;" method="POST" enctype="multipart/form-data" class="p-5">
+    {% if messages %}
+    {% for message in messages%}
+    <div id="edit-patient-message" {% if message.tags %} class="alert alert-danger" role="alert" {% endif %}>
+        {{message}}
+    </div>
+    {% endfor %}
+    {% endif %}
+
+
+    {% csrf_token %}
+    {% for fm in form %}
+    {{fm.label_tag}} {{fm}} <small class="text-danger">
+        {{fm.errors}}
+    </small>
+    {% endfor %}
+
+    <div class="d-flex justify-content-end">
+        <button type="submit" class="btn btn-primary mt-3">save changes</button>
+    </div>
+</form>
+
+{% endblock userDashContent %}

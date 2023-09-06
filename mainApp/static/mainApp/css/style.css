@@ -1,0 +1,106 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#main-header{
+    margin: 0;
+    padding: 0;
+}
+
+#main-header .container-fluid{
+    padding: 12px;
+    background-color: #005c8a;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    margin-bottom: 65px;
+}
+
+#header-logo{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    /* margin-right: 20%; */
+    color: white;
+
+}
+
+#custom-active a{
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+#customHeaderUl li a{
+    font-size: 16px;
+    /* color: black; */
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 8px 16px;
+    
+}
+
+#customHeaderUl li a:hover{
+    color: white;
+}
+
+.why-us{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.view-book-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* doctor profile css  */
+
+.experience-education-container h5{
+    background-color: #ed6fac;
+     padding: 5px 0px 5px 0px; 
+     text-align: center; color: white;
+    }
+
+
+
+/* diseases prediction page  */
+
+
+.diseases-form-container{
+    margin: auto;
+    background-color: #edf2f7;;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.hospital-image-container{
+    background-image: url('../images/hospital-image.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    width: 100%;
+    height: 450px;
+}
+
+.department-container .card{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.department-container .card .card-title{
+    text-align: center;
+}
+
+.department-container div:hover{
+    transform: scale(1.1);
+    transition: transform 0.9s ease-in-out;
+}
+
+.about-image-container{
+    background-image: url('../images/about.jpg');
+    background-size: cover;
+    width: 90%;
+    height: 350px;
+    margin: auto;
+}

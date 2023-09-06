@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.login-signup-form {
+    padding: 40px 70px 40px 70px;
+    background-color: #ced7d8;
+
+}
+
+.login-signup-form h4{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 8px;
+    border-bottom: 2px solid;
+}
+
+.form-image {
+    background-image: url("../images/hospital_image.jpg");
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.userDashNav {
+    width: auto;
+    background-color: white;
+    border-radius: 20px;
+    min-height: 100vh;
+    padding: 10px;
+    position: relative;
+}
+
+#user-dash-body {
+    background-color: #EAECF4;
+}
+
+.userDash {
+    padding: 10px 40px 10px 40px;
+}
+
+.user-navigation-dashboard {
+    display: flex;
+}
+
+.user-dashboard {
+    width: 100%;
+    padding: 10px 40px 10px 40px;
+}
+
+#user-dash-hospital-logo {
+    font-weight: bold;
+    text-decoration: none;
+    color: #0AB8B7;
+}
+
+.user-profile {
+    text-align: center;
+}
+
+#user-profile-pic-container {
+    width: 100px;
+    margin: auto;
+}
+
+.user-profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-dash-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 0px;
+}
+
+#user-dash-nav-active {
+    color: #0AB8B7;
+}
+
+.user-dash-nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.user-dash-nav a:hover {
+    color: #0AB8B7;
+
+}
+
+
+
+
+.user-accounts-setting {
+    text-align: center;
+}
+
+
+
+.user-accounts-setting a {
+    color: black;
+    text-decoration: none;
+}
+
+#custom-active {
+    color: #0AB8B7;
+}
+
+.experience-education-container h5 {
+    background-color: #e6ecff;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    color: white;
+}
+
+
+/* for dashboard css  */
+/* .dashboard-content {
+    height: 100vh;
+    overflow: auto;
+    padding: 20px;
+    padding-top: 80px;
+}
+
+.sidenav {
+    margin-top: 60px;
+}
+
+.sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+.dropdown-container {
+    padding-left: 8px;
+}
+
+.dropdown-container a {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 550px) {
+    .sidenav-container {
+        float: left;
+        position: fixed;
+        z-index: 0;
+    }
+} */
+
+
+/* patient dashboard css  */
+
+.dashboard-card{
+    border-radius: 10px;
+    height: 200px;
+    text-align: center;
+    cursor: pointer;
+    padding: 2rem;
+}
+
+.testreport-form-container h5{
+    background-color: plum;
+     padding: 5px 0px 5px 0px; 
+     text-align: center; color: white;
+    }
